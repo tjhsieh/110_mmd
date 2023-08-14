@@ -1,0 +1,239 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>機器學習對抗式生成網路頭像生成</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.lp.css">
+	<link rel="stylesheet" type="text/css" href="css/landing-page.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+	<link rel="stylesheet" type="text/css" href="css/styleTest.css">
+</head>
+<style>
+.b{
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
+</style>
+
+<body>
+	<!----------------------------------- Dividing line----------------------------------------------------->
+	
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand topnav" href="https://myweb.ntut.edu.tw/~tjhsieh/">
+                ♪ 國立臺北科技大學 ♪ 資訊工程系 ♪ 計算機圖學實驗室 ♪</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#top">回頂端</a>
+                    </li>
+					<li>
+                        <a href="#demo1">摘要</a>
+                    </li>
+					<li>
+                        <a href="#demo2">引用文獻</a>
+                    </li>
+                    <li>
+                        <a href="#demo3">示範</a>
+                    </li>
+					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="top"></a>
+    <div class="intro-header">
+        <div class="container" style="height:350px;">
+
+            <div class="row">
+                <div class="col-lg-12" style="height:300px;">
+                    <div class="intro-message" style="position: relative;padding-top: 0%;padding-bottom: 70%;">
+                        <h1>
+							<font color="black">機器學習對抗式生成網路頭像生成</font>
+						</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+	<a  name="demo1"></a>
+	<div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading">摘要</h2>
+					<p class="lead" face="DFKai-sb">
+						<font face="DFKai-sb">
+							<b>虛擬Youtuber (VTuber) 是以虛擬人物作為人物設定的直播方式。現在 VTuber 在人物模型製作上分為 3D 和 2.5D。但是這兩個維度模型的製作皆需要專業的技術，在售價上也很昂貴，所以一個人在不花錢的情況下當 VTuber 顯然是不可能的。本論文提出使用三個神經網路，面部表情轉換成所需表情的表情器、給定輸入圖像就能推測圖像的側邊形狀的轉頭器以及組合表情器和轉頭器輸出結果的合成器，並使用 7,130 個模型生成 1,012,460 張的 2D PNG 圖片去進行模型訓練，訓練好的模型只需要 2D PNG 圖片就能夠做出轉頭、搖頭、點頭、眨眼、張嘴的動作。本論文提供了 7,130 個的模型檔案與產生數據集的工具程式，訓練了三個神經網路，並在結果驗證了此項技術的可行性，只需輸入六個參數和一張 2D PNG 圖片就可以透過模型生成所需的表情。</b>
+						</font>
+					</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+					<br><br><br>
+					<br><br><br>
+                    <img class="img-responsive" src="img/PumarolaNet.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <a  name="demo2"></a>	
+	<div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">引用文獻</h2>
+					<p class="lead">
+						<a href="https://pkhungurn.github.io/talking-head-anime/">Talking-Head-Anime</a><br>
+						<a href="https://pkhungurn.github.io/talking-head-anime-2/">Talking-Head-Anime-2</a><br>
+					</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+					<br><br><br>
+					<video width="720" height="540" controls>
+					  <source src="movie/talking-head-anime-2.mp4" type="video/mp4">
+					</video>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+	
+	<a name="demo3"></a>
+	<div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading">系統流程圖</h2>
+					<p class="lead">
+						<font face="DFKai-sb">
+							<b>
+								1.將MMD模型正規化 <br>
+								2.將正歸化後的模型調整到生成資料集需要的位置 <br>
+								3.生成所需要的資料集，以利進行訓練 <br>
+							</b>
+						</font>
+					</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+					<br><br><br>
+                    <img class="img-responsive" src="img/FlowChart.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+	
+	<a name="demo4"></a>
+	<div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading">系統呈現</h2>
+					<p class="lead">
+						<a href="https://github.com/ming173899/my_saba">本論文提供GitHub</a>
+						<video width="720" height="540" controls>
+							<source src="movie/GenerateData.mp4" type="video/mp4">
+						</video>
+					</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+	
+
+	
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-12">
+                    <hr>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">
+			論文題目，
+
+            由<a xmlns:cc="http://creativecommons.org/ns#" href="http://www.cc.ntut.edu.tw/~tjhsieh/" property="cc:attributionName" rel="cc:attributionURL">國立臺北科技大學資訊工程系計算機圖學實驗室</a>製作，
+			以<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">創用CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a>釋出。
+			姓名標示-非商業性-相同方式分享 CC BY-NC-SA
+			本授權條款允許使用者對本著作進行重混、調整，以及依原著作建立新著作，但僅限於非商業目的之使用。唯使用者就其新創著作，必須按照表彰
+			原作：國立臺北科技大學資訊工程系計算機圖學實驗室，並且將產出之新創著作採用相同的授權條款釋出。</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="lib/jquery-2.1.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap.min.js"></script>
+
+	
+	
+	
+	
+	
+</body>
+</html>
